@@ -877,6 +877,7 @@ figure{
     background-size: contain;
     image-rendering: -webkit-pixelated;
     image-rendering: pixelated;
+    border-right: 1px solid gray;
 }
     .post-template .post-photo img {
         max-height: 100%;
