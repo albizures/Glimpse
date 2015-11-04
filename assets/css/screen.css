@@ -546,6 +546,7 @@ figure{
     border: none !important;
     text-decoration: none;
     color: #fff;
+    text-shadow: 0px 0px 5px black;
 }
 
 .blog-logo img {
