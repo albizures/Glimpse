@@ -366,7 +366,14 @@ margin on the iframe, cause it breaks stuff. */
 .fluid-width-video-wrapper iframe {
     margin: 0;
 }
-
+img{
+  image-rendering: -webkit-pixelated;
+  image-rendering: pixelated;
+}
+figure{
+  image-rendering: -webkit-pixelated;
+  image-rendering: pixelated;
+}
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
@@ -390,7 +397,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Creates a responsive wrapper that makes our content scale nicely */
 .inner {
-    position: relative; 
+    position: relative;
     margin: 0 auto;
 }
 
@@ -428,6 +435,9 @@ margin on the iframe, cause it breaks stuff. */
         overflow: hidden;
         opacity: 0;
         transition: opacity 3s ease-out;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .featured-gallery figcaption{
@@ -443,6 +453,8 @@ margin on the iframe, cause it breaks stuff. */
 
     figure img {
         margin: auto;
+        image-rendering: -webkit-pixelated;
+        image-rendering: pixelated;
     }
 
     .full-width {
@@ -860,6 +872,11 @@ margin on the iframe, cause it breaks stuff. */
     top: 0;
     height: 100%;
     text-align: left;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    image-rendering: -webkit-pixelated;
+    image-rendering: pixelated;
 }
     .post-template .post-photo img {
         max-height: 100%;
