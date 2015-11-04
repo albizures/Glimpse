@@ -369,10 +369,12 @@ margin on the iframe, cause it breaks stuff. */
 img{
   image-rendering: -webkit-pixelated;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
 }
 figure{
   image-rendering: -webkit-pixelated;
   image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
 }
 
 /* ==========================================================================
